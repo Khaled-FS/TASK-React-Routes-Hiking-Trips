@@ -1,13 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-function Nav({ tripId }) {
+function Nav() {
   return (
     <nav
       className="navbar navbar-expand-lg bg-secondary text-uppercase "
       id="mainNav"
     >
       <div className="container">
-        <NavLink className="navbar-brand" to="/TripDetail">
+        <NavLink className="navbar-brand" to="/">
           Hike
         </NavLink>
 
